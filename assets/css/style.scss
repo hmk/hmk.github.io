@@ -5,3 +5,17 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+@media (prefers-color-scheme: dark) {
+  .hidden-dark-mode {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .hidden-light-mode {
+    display: none
+  }
+}
+

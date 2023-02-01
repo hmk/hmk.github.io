@@ -4,7 +4,8 @@
 
 layout: default
 ---
-![Alta Winter](/assets/images/alta-winter.jpg)
+![Alta Utah in the Winter](/assets/images/alta-winter.jpg){: .hidden-dark-mode}
+![Snowy Night](/assets/images/gentle-snowfall-at-night.jpg){: .hidden-light-mode}
 
 [wine](https://www.heimarkvineyard.com/) |
 [contact](https://jakeheimark.typeform.com/to/CKfPmW0n) |
