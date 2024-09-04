@@ -8,5 +8,5 @@ layout: default
 ![Snowy Night](/assets/images/gentle-snowfall-at-night.jpg){: .hidden-light-mode}
 
 [wine](https://www.heimarkvineyard.com/) |
-[contact](https://jakeheimark.typeform.com/to/CKfPmW0n) |
-[alta](https://jakeheimark.typeform.com/to/Ze30esll)
+[costa](https://costa.security) |
+[about](/about)
