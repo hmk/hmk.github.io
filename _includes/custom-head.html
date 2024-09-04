@@ -5,13 +5,3 @@
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-
-<script>
-    if (navigator.sendBeacon) {
-        navigator.sendBeacon("/", null, {
-            headers: {
-                "X-Clacks-Overhead": "GNU Terry Pratchett"
-            }
-        });
-    }
-</script>
