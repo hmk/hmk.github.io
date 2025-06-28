@@ -7,7 +7,7 @@ layout: tailwind
 
 <div class="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center p-4 transition-colors duration-200">
   <div class="text-center space-y-8">
-    <div class="w-[500px] h-[350px] mx-auto">
+    <div class="w-full max-w-[500px] h-[350px] mx-auto px-4 sm:px-0">
       <img src="/assets/images/alta-winter.jpg" alt="Alta Utah in the Winter" class="w-full h-full object-cover rounded-lg shadow-lg block dark:hidden">
       <img src="/assets/images/gentle-snowfall-at-night.jpg" alt="Snowy Night" class="w-full h-full object-cover rounded-lg shadow-lg hidden dark:block">
     </div>
