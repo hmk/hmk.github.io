@@ -2,15 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: tailwind
 ---
 
 <div class="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center p-4 transition-colors duration-200">
   <div class="text-center space-y-8">
     <!-- Images with proper dark/light mode switching -->
-    <div class="space-y-4">
-      <img src="/assets/images/alta-winter.jpg" alt="Alta Utah in the Winter" class="max-w-md mx-auto rounded-lg shadow-lg block dark:hidden">
-      <img src="/assets/images/gentle-snowfall-at-night.jpg" alt="Snowy Night" class="max-w-md mx-auto rounded-lg shadow-lg hidden dark:block">
+    <div class="w-96 h-64 mx-auto">
+      <img src="/assets/images/alta-winter.jpg" alt="Alta Utah in the Winter" class="w-full h-full object-cover rounded-lg shadow-lg block dark:hidden">
+      <img src="/assets/images/gentle-snowfall-at-night.jpg" alt="Snowy Night" class="w-full h-full object-cover rounded-lg shadow-lg hidden dark:block">
     </div>
     
     <!-- Links -->
