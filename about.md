@@ -18,8 +18,8 @@ permalink: /about/
       </p>    
     </div>
     <div class="pt-8">
-      <a href="/" class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors duration-200">
-        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <a href="/" class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 px-6 py-3 rounded-full hover:shadow-lg transition-all duration-200 transform hover:scale-105 inline-flex items-center gap-2 border border-gray-200 dark:border-gray-700">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
         </svg>
         heimark.org
