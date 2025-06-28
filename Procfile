@@ -1,2 +1,2 @@
 css: npm run watch:css
-jekyll: bundle exec jekyll serve 
+jekyll: bundle exec jekyll serve --livereload 

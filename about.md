@@ -5,14 +5,17 @@ permalink: /about/
 ---
 
 <div class="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center p-4 transition-colors duration-200">
-  <div class="max-w-2xl mx-auto text-center space-y-8">
+  <div class="max-w-4xl mx-auto space-y-8">
     <div class="prose prose-lg dark:prose-invert max-w-none">
       <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
         Heimark (pronounced "high-mark") originates from the name of an ancient farm in Hordaland, Norway. "Heimark" is a portmanteau of two Old Norse words: <em class="text-gray-900 dark:text-white">heiðr</em> (heath) and <em class="text-gray-900 dark:text-white">mǫrk</em> (forest).
       </p>
       <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-6">
-        Heimarks have been doctors and farmers in the American Midwest for multiple generations.
+        Heimarks were doctors and farmers in the American Midwest for multiple generations. 
       </p>
+      <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-6">
+        They are now more geographically dispersed. 
+      </p>    
     </div>
     <div class="pt-8">
       <a href="/" class="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
