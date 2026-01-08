@@ -1,5 +1,9 @@
 # Development commands for hmk.github.io Jekyll site
 
+# Show a list of all commands by order in this file (--unsorted)
+_default:
+    @just --list --unsorted
+
 # Start development server with CSS watching (equivalent to Procfile)
 serve:
     overmind start

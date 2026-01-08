@@ -10,7 +10,26 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ['"Archivo Black"', 'sans-serif'],
+      },
+      colors: {
+        moss: {
+          '50': '#f7f7f6',
+          '100': '#ecedeb',
+          '200': '#d9dcd6',
+          '300': '#adb3a8',
+          '400': '#939b8d',
+          '500': '#727b6c',
+          '600': '#5c6356',
+          '700': '#4a4f46',
+          '800': '#3d413a',
+          '900': '#333631',
+          '950': '#191b18',
+        }
+      }
+    },
   },
   plugins: [],
 } 

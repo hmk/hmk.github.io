@@ -18,22 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Heimark Family
+title: Jacob Foster Heimark
 email: noreply@heimark.org
 description: >- # this means to ignore newlines until "baseurl:"
-  The Heimarks like to make things that make people happy
+  Jacob Foster Heimark was CEO and cofounder of PLUS. He used to work at 
+  Gumroad and Facebook. He wants to leave the world a better place.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://heimark.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://heimark.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Theme settings
-minima:
-  skin: auto
+# minima:
+#   skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,6 +43,12 @@ minima:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
