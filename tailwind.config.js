@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ['"Archivo Black"', 'sans-serif'],
+        mono: ["Commit Mono", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
       },
       colors: {
         moss: {
