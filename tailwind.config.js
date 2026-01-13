@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['"Archivo Black"', 'sans-serif'],
+        display: ["ChiKareGo2", "Lucida Grande", "serif"],
         mono: ["Commit Mono", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
       },
       colors: {

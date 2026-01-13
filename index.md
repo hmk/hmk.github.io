@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
 
-<h1 class="text-5xl font-display">
+<h1 class="text-7xl font-display">
   Jacob Foster Heimark
 </h1>
 <div class="max-w-2xl pt-12 space-y-8 font-mono leading-loose">
