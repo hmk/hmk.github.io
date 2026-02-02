@@ -10,7 +10,7 @@ title: Writing
         class="group flex flex-wrap items-baseline gap-x-8 gap-y-1 font-mono px-0.5 rounded-sm
                hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:text-moss-200"
       >
-        <span class="flex-1 text-xl font-light min-w-sm">
+        <span class="flex-1 text-xl font-light min-w-xs">
           {{ post.title }}
         </span>
         <time
