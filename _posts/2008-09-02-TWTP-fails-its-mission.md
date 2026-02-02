@@ -3,6 +3,7 @@ layout: post
 title:  "TWTP Fails its mission"
 date:   2008-09-02 20:00:00 -0500
 tags: brown brown-daily-herald bdh twtp
+external_url: https://www.browndailyherald.com/article/2008/09/jake-heimark-10-twtp-fails-its-mission
 ---
 When Brown welcomed the majority of the class of 2012 for Orientation, nearly an eighth of the class had arrived four days before to participate in the Third World Transition Program. Despite the Third World Center's best efforts to publicize the event, many first years will not learn of the program until they begin unpacking boxes and carrying fridges up crowded staircases, only to notice that some of their classmates have already settled into the dorms.
 

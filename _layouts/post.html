@@ -3,11 +3,18 @@ layout: default
 ---
 <article class="post">
 
-  <header class="mb-4 font-mono text-2xl font-bold">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+  <header class="mb-6 font-mono">
+    <h1 class="text-2xl font-bold post-title">
+      {{ page.title | escape }}
+    </h1>
 
-    {% if page.external_url %}
-      <div class="mt-1 text-sm text-moss-600 : dark:text-moss-300">
+    <div class="flex items-center gap-4 mt-1 text-sm text-moss-600 dark:text-moss-300">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+
+      {% if page.external_url %}
+        <span aria-hidden="true">·</span>
         <a
           href="{{ page.external_url }}"
           target="_blank"
@@ -16,8 +23,8 @@ layout: default
         >
           Read original →
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
+    </div>
   </header>
 
   <div class="prose">
