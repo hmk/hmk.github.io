@@ -2,11 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
-
-<h1 class="text-7xl font-display">
-  Jacob Foster Heimark
-</h1>
-<div class="max-w-2xl pt-12 space-y-8 font-mono leading-loose">
+<div class="max-w-2xl space-y-8 font-mono leading-loose">
   <p>
     I live in Palo Alto, California.
   </p>
