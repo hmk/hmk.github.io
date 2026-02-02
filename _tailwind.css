@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Tell Tailwind v4 what files to scan (replaces `content:`) */
+@source "./_layouts/**/*.{html,md}";
+@source "./_includes/**/*.{html,md}";
+@source "./_posts/**/*.{html,md}";
+@source "./*.{html,md}";
+@source "./assets/**/*.{css,js}";
+@source "./**/*.{html,md}";
+
+/* Fonts */
+@font-face {
+  font-family: "Commit Mono";
+  src: url("/assets/fonts/CommitMono-400-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ChiKareGo2";
+  src: url("/assets/fonts/ChiKareGo2.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Theme tokens (replaces `theme.extend`) */
+@theme {
+  --font-display: "ChiKareGo2", "Lucida Grande", serif;
+  --font-mono: "Commit Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-moss-50:  #f7f7f6;
+  --color-moss-100: #ecedeb;
+  --color-moss-200: #d9dcd6;
+  --color-moss-300: #adb3a8;
+  --color-moss-400: #939b8d;
+  --color-moss-500: #727b6c;
+  --color-moss-600: #5c6356;
+  --color-moss-700: #4a4f46;
+  --color-moss-800: #3d413a;
+  --color-moss-900: #333631;
+  --color-moss-950: #191b18;
+}
+
+/* Optional: friendly utility names for your font tokens */
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}

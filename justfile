@@ -6,17 +6,15 @@ _default:
 
 # Start development server with CSS watching (equivalent to Procfile)
 serve:
-    overmind start
+    bundle exec jekyll serve --livereload
 
 # Build the site for production
 build:
-    npm run build:css
     bundle exec jekyll build
 
 # Install all dependencies
 install:
     bundle install
-    npm install
 
 # Clean build artifacts
 clean:
@@ -25,6 +23,3 @@ clean:
     rm -rf .jekyll-cache
     rm -rf .jekyll-metadata
 
-# Build CSS for production
-build-css:
-    npm run build:css
