@@ -4,6 +4,7 @@ title:  "Winning in defeat"
 date:   2008-11-06 20:00:00 -0500
 tags: brown brown-daily-herald bdh usnews
 permalink: /writing/:title/
+external_url: "https://www.browndailyherald.com/article/2008/11/jake-heimark-10-winning-in-defeat"
 ---
 Make a quick jump to the "U.S. News and World Report" website and you'll find that Brown has again secured itself the last position in the Ivy League, sixteenth overall among national universities. Perhaps it is time we threw out "In Deo Speramus" and replaced it with "Superati Vincimus": we win when we lose.
 
