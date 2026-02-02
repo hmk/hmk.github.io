@@ -1,14 +1,26 @@
 ---
 layout: default
-permalink: /writing/:title/
 ---
 <article class="post">
 
-  <header class="post-header">
+  <header class="mb-4 font-mono text-2xl font-bold">
     <h1 class="post-title">{{ page.title | escape }}</h1>
+
+    {% if page.external_url %}
+      <div class="mt-1 text-sm text-moss-600 : dark:text-moss-300">
+        <a
+          href="{{ page.external_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:underline"
+        >
+          Read original →
+        </a>
+      </div>
+    {% endif %}
   </header>
 
-  <div class="post-content">
+  <div class="prose">
     {{ content }}
   </div>
 

@@ -7,16 +7,15 @@ title: Writing
     <li>
       <a
         href="{{ post.url | relative_url }}"
-        class="flex flex-wrap items-baseline gap-x-8 gap-y-1 font-mono
-               hover:[background-image:linear-gradient(to_bottom,#e6efe0_0%,#c8d9be_100%)]
-               dark:hover:[background-image:linear-gradient(to_bottom,#1f2a22_0%,#141a17_100%)]"
+        class="group flex flex-wrap items-baseline gap-x-8 gap-y-1 font-mono px-0.5 rounded-sm
+               hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:text-moss-200"
       >
-        <span class="flex-1 text-xl min-w-sm">
+        <span class="flex-1 text-xl font-light min-w-sm">
           {{ post.title }}
         </span>
         <time
           datetime="{{ post.date | date_to_xmlschema }}"
-          class="text-sm dark:text-moss-400 text-moss-700"
+          class="text-sm font-thin dark:text-moss-400 text-moss-700 group-hover:text-inherit"
         >
           {{ post.date | date: "%B %-d, %Y" }}
         </time>

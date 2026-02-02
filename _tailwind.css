@@ -11,8 +11,8 @@
 /* Fonts */
 @font-face {
   font-family: "Commit Mono";
-  src: url("/assets/fonts/CommitMono-400-Regular.woff2") format("woff2");
-  font-weight: 400;
+  src: url("/assets/fonts/CommitMono-Variable.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
@@ -50,5 +50,39 @@
   }
   .font-mono {
     font-family: var(--font-mono);
+  }
+}
+
+/* Custom prose styles for blog posts */
+@layer components {
+  .prose {
+    max-width: 65ch;
+  }
+
+  .prose p {
+    margin-top: 1.25em;
+    line-height: 1.7;
+  }
+
+  .prose h1 {
+    font-size: 2.25rem;
+    margin-top: 2.5em;
+    margin-bottom: 0.75em;
+  }
+
+  .prose h2 {
+    font-size: 1.5rem;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  .prose a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .prose code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
   }
 }
