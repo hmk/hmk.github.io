@@ -77,6 +77,19 @@
   }
 }
 
+/* Links in page content: quiet underline, darkens on hover */
+@layer components {
+  main a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-moss-400);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  main a:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
 /* Custom prose styles for blog posts */
 @layer components {
   .prose {
