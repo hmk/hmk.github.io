@@ -7,7 +7,7 @@
     I live in Palo Alto, California.
   </p>
   <p>
-    I like to build stuff. Right now I'm doing that at <a href="https://www.cisco.com" class="underline underline-offset-4 px-0.5 rounded-sm hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:no-underline hover:text-moss-200">Cisco</a>. The rest of my time goes to parenting, cubmastering and advising companies.
+    I like to build stuff. Right now I'm doing that at <a href="https://www.cisco.com" class="underline underline-offset-4 px-0.5 rounded-sm hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:no-underline hover:text-moss-200">Cisco</a>. The rest of my time goes to parenting, cubmastering, the board of the <a href="https://www.friendsjmz.org" class="underline underline-offset-4 px-0.5 rounded-sm hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:no-underline hover:text-moss-200">Friends of the Palo Alto Junior Museum &amp; Zoo</a>, and advising companies.
   </p>
   <p>
     If you like wine, you should try <a href="https://www.heimarkvineyard.com" class="underline underline-offset-4 px-0.5 rounded-sm hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:no-underline hover:text-moss-200">Heimark Vineyard</a>. It's one of the <a href="https://www.heimarkvineyard.com/2018-heimark-wine-rating-moved-up-from-97-to-98-points" class="underline underline-offset-4 px-0.5 rounded-sm hover:bg-moss-900 hover:dark:bg-moss-200 hover:dark:text-moss-950 hover:no-underline hover:text-moss-200">best in the world</a>.
