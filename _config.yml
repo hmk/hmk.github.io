@@ -21,8 +21,8 @@
 title: Jacob Foster Heimark
 email: jake@heimark.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Jacob Foster Heimark was CEO and cofounder of PLUS. He used to work at 
-  Gumroad and Facebook. He wants to leave the world a better place.
+  Jacob Foster Heimark builds stuff. He works at Cisco and
+  cofounded OpenStudio and PLUS. He wants to leave the world a better place.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://heimark.org" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -52,6 +52,7 @@ defaults:
       layout: default
 
 exclude:
+  - archive/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
